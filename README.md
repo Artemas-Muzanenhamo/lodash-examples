@@ -32,14 +32,10 @@ let basketBallPlayers = [
 	{ name: 'Kevin', surname: 'Garnett', position: 'PF', active: false}
 ];
 
-
 const newPlayer = { name: 'Artemas', surname: 'Prime', position: 'PG', active: true};
-
 return _.concat(basketBallPlayers, newPlayer);
 
-
-// output 
-
+// output
 [
 	{name: 'Kobe', surname: 'Bryant', position: 'SG', active: false},
 	{name: 'LeBron', surname: 'James', position: 'SF', active: true},
