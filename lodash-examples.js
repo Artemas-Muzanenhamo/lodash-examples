@@ -60,13 +60,3 @@ function addPlayer() {
 }
 
 console.log(addPlayer());
-
-
-[
-	{name: 'Kobe', surname: 'Bryant', position: 'SG', active: false},
-	{name: 'LeBron', surname: 'James', position: 'SF', active: true},
-	{name: 'Michael', surname: 'Jordan', position: 'SG', active: false},
-	{name: 'Dwayne', surname: 'Wade', position: 'SG', active: false},
-	{name: 'Kevin', surname: 'Garnett', position: 'PF', active: false},
-	{name: 'Artemas', position: 'PG', active: true}
-]
