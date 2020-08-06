@@ -1,5 +1,16 @@
 # Lodash Examples
 
+## Pre-requisites
+
+* NodeJS
+
+## How to run example
+
+You need to execute node to run any example
+you wish to run e.g:
+
+`node concat.js`
+
 ## Filter
 
 ```javascript
