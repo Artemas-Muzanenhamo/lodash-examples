@@ -12,27 +12,29 @@ you wish to run e.g:
 `node concat.js`
 
 ## Filter
+* If you only want a filtered result given a _predicate_.
 
 ```javascript
 const numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-return _.filter(numberArray, n => n % 2 == 0);
+return _.filter(numberArray, n => n % 2 === 0);
 
 // output
 [ 2, 4, 6, 8 ]
 ```
 
 ## Reject
+* If you only want to reject values in a given array.
 
 ```javascript
 const numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-return _.reject(numberArray, n => n % 2 == 0);
+return _.reject(numberArray, n => n % 2 === 0);
 
 // output
 [ 1, 3, 5, 7, 9 ]
 ```
 
 ## Concat
-- Joining an object to other objects
+* If you want to add an object to other existing objects.
 
 ```javascript
 let basketBallPlayers = [
